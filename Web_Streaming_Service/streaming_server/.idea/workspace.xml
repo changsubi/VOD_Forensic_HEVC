@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37a2cf42-254b-4fea-ad02-ee2053c2e687" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/objects/login.json.php" beforeDir="false" afterPath="$PROJECT_DIR$/objects/login.json.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/objects/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/userAddNew.json.php" beforeDir="false" afterPath="$PROJECT_DIR$/objects/userAddNew.json.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objects/userCreate.json.php" beforeDir="false" afterPath="$PROJECT_DIR$/objects/userCreate.json.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/Gallery/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/Gallery/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/Gallery/view/BigVideo.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/Gallery/view/BigVideo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/Live/view/OnAir.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/Live/view/OnAir.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/channelBody.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/channelBody.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/managerUsers_body.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/managerUsers_body.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/modeYoutubeBottom.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/modeYoutubeBottom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/signUp.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/signUp.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jj6bAwwcLUrkbk0wOMPgfXRsl2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37a2cf42-254b-4fea-ad02-ee2053c2e687" name="Default Changelist" comment="" />
+      <created>1604305222629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604305222629</updated>
+      <workItem from="1604305223725" duration="66970000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1948" y="765" width="1052" height="737" key="SettingsEditor" timestamp="1604379285174">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="1948" y="765" width="1052" height="737" key="SettingsEditor/0.27.3840.2133@0.27.3840.2133" timestamp="1604379285174" />
+    <state x="2138" y="540" key="run.anything.popup" timestamp="1604379247345">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="2138" y="540" key="run.anything.popup/0.27.3840.2133@0.27.3840.2133" timestamp="1604379247345" />
+    <state x="1775" y="555" width="672" height="678" key="search.everywhere.popup" timestamp="1604895973994">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="1775" y="555" width="672" height="678" key="search.everywhere.popup/0.27.3840.2133@0.27.3840.2133" timestamp="1604895973994" />
+  </component>
+</project>

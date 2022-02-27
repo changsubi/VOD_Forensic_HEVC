@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/main.dir/main.cpp.o  -o main   -L/home/chkim/CLionProjects/WKforensic/your_path_to_mysql_connectorcpp/lib  -Wl,-rpath,/home/chkim/CLionProjects/WKforensic/your_path_to_mysql_connectorcpp/lib -lcurl -lmysqlcppconn 

@@ -1,0 +1,3 @@
+/home/chkim/CLionProjects/WKforensic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/chkim/CLionProjects/WKforensic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chkim/CLionProjects/WKforensic/cmake-build-debug/CMakeFiles/WKforensic.dir

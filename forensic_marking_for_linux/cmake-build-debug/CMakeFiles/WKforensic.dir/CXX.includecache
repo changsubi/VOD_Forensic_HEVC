@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chkim/CLionProjects/WKforensic/CABAC_BitstreamFile.cpp
+CABAC_BitstreamFile.h
+/home/chkim/CLionProjects/WKforensic/CABAC_BitstreamFile.h
+assert.h
+-
+stdafx.h
+/home/chkim/CLionProjects/WKforensic/stdafx.h
+
+/home/chkim/CLionProjects/WKforensic/CABAC_BitstreamFile.h
+fstream
+-
+
+/home/chkim/CLionProjects/WKforensic/stdafx.h
+vector
+-
+string
+-
+
