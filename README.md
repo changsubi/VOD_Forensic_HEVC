@@ -26,4 +26,9 @@ The purchase process is currently with the billing library function turned off, 
 
 ## Forensic Marking Architecture
 ![그림5](https://user-images.githubusercontent.com/100255173/155910022-3327b2f4-8879-4feb-92ed-68f2a21fd790.jpg)
+It configures a heterogeneous system architecture that uses both CPU and GPU for real-time forensic mark insertion.
 
+HEVC compression technology consists of I-frames, B-frames, and P-frames. In the case of I-frame, multiple CTUs can simultaneously perform CABAC encoding/decoding with WPP and Tile parallelization technology.
+However, B-frame and P-frame have unidirectional and bidirectional correlation, so parallelization cannot be performed in CABAC codec.
+In this method, CTUs in the I frame are processed by the CUDA core of the GPU by applying tile parallelization, and while the GPU is processing, the CPU receives the entire image frame and calculates the reference direction of the B frame and P frame.
+Pass direction information to the GPU's memory. Afterwards, in the section where I-frames are not being processed in the x-axis direction among the GPU's CUDA cores, B-frames and P-frames are processed equally in the tile method.
