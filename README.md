@@ -32,3 +32,16 @@ HEVC compression technology consists of I-frames, B-frames, and P-frames. In the
 However, B-frame and P-frame have unidirectional and bidirectional correlation, so parallelization cannot be performed in CABAC codec.
 In this method, CTUs in the I frame are processed by the CUDA core of the GPU by applying tile parallelization, and while the GPU is processing, the CPU receives the entire image frame and calculates the reference direction of the B frame and P frame.
 Pass direction information to the GPU's memory. Afterwards, in the section where I-frames are not being processed in the x-axis direction among the GPU's CUDA cores, B-frames and P-frames are processed equally in the tile method.
+
+## DRM Architecture
+![그림6](https://user-images.githubusercontent.com/100255173/155919945-05f56863-bdb3-4651-b5bd-7d828e07bb99.jpg)
+The DRM packaging server applies PRN-Based SFPT (Pseudo Random Number-Based Selective Frame Packaging Technique) for real-time packaging and parallelizes it based on thread pool.
+
+This is different from applying DRM packaging to all frames in the video, when packaging is performed by selecting a frame to be subjected to DRM packaging, when normal frames to which packaging is not applied are leaked,
+There is an advantage that the original high-definition immersive content cannot be viewed because it is not possible to watch the low-quality immersive content rather than the existing high-definition immersive content.
+The proposed technique selects an I frame that does not have a reference frame in HEVC, allocates it to the CUDA (Compute Unified Device Architecture) core in a GOP (Group Of Picture) unit, and performs parallel processing on the GPU.
+
+
+
+
+
