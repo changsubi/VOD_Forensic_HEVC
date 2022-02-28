@@ -15,3 +15,10 @@ After that, the insertion process proceeds by reading the mark information from 
 DRM packaging is processed simultaneously with forensic mark insertion.
 
 Users will watch content embedded with these two technologies.
+![그림3](https://user-images.githubusercontent.com/100255173/155907436-811c2d1a-32ca-4d28-8e4c-c33db4c5d1d5.png)
+![그림4](https://user-images.githubusercontent.com/100255173/155907440-5df4994f-a43c-4abd-8e2c-cdf878bc98ad.png)
+Content purchase process and verification process.
+There are two methods for this process.
+The first is to verify the website itself, and the second is to verify it using a verification program without accessing the website.
+
+The purchase process is currently with the billing library function turned off, so members can download it right away. (You can use the billing policy library if necessary) Downloaded content is converted to HEVC for copyright verification later and is downloaded. The verification process includes DRM unpackaging and forensic mark extraction.
