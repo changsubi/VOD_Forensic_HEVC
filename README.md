@@ -25,4 +25,5 @@ The first is to verify the website itself, and the second is to verify it using 
 The purchase process is currently with the billing library function turned off, so members can download it right away. (You can use the billing policy library if necessary) Downloaded content is converted to HEVC for copyright verification later and is downloaded. The verification process includes DRM unpackaging and forensic mark extraction.
 
 ## Forensic Marking Architecture
-![그림5](https://user-images.githubusercontent.com/100255173/155909953-45662839-57e7-411d-ba75-6c92983e0a42.png)
+![그림5](https://user-images.githubusercontent.com/100255173/155910022-3327b2f4-8879-4feb-92ed-68f2a21fd790.jpg)
+
